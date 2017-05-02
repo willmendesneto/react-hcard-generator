@@ -1,0 +1,11 @@
+@import './colors.css';
+
+.large {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: var(--hcard-preview-background);
+  font-size: 20px;
+  width: 100%;
+  border: 0;
+}

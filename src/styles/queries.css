@@ -1,0 +1,5 @@
+/*copied dimensions from http://getbootstrap.com/css/#grid-options*/
+@custom-media --extra-small (width < 768px);
+@custom-media --small (width >= 768px);
+@custom-media --medium (width >= 992px);
+@custom-media --large (width >= 1200px);

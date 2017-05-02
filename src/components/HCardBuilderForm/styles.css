@@ -1,0 +1,16 @@
+@import '../../styles/colors.css';
+@import '../../styles/queries.css';
+
+.formTitle {
+  color: var(--blue);
+  font-size: 29px;
+  margin-top: 0px;
+}
+
+.hcard-form {
+  composes: half-column from '../../containers/HCardBuilderWrapper/styles.css';
+  padding: 30px;
+  @media (--extra-small) {
+    padding: 10px;
+  }
+}

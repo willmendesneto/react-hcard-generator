@@ -1,0 +1,6 @@
+.field {
+  composes: Open Sans from '../../styles/fonts.css';
+  font-size: 1.2em;
+  white-space: nowrap;
+  padding-left: 20px;
+}

@@ -1,0 +1,4 @@
+.hcard-builder {
+  composes: open-sans from '../../styles/fonts.css';
+  height: 100%;
+}

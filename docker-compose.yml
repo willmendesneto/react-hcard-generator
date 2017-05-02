@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  react-hcard-generator:
+    container_name: react-hcard-generator
+    build: .
+    ports:
+      - "3000:3000"

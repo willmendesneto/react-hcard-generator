@@ -1,0 +1,13 @@
+:root {
+  --default-text-color: #000;
+  --blue: #394F63;
+  --grey: #BDC5C8;
+
+  --file-field-button-background: #758E9D;
+  --file-field-button-color: #304D5C;
+  --hcard-preview-background: #FFF;
+  --hcard-preview-border-bottom: #AAA;
+  --photo-border-color: #C0C0C0;
+  --loading-background: #ff0000;
+  --input-border: #c3c4c3;
+}

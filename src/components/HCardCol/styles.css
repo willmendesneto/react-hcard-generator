@@ -1,0 +1,5 @@
+.col {
+  composes: row from '../HCardRow/styles.css';
+  display: inline-block;
+  width: 50%;
+}

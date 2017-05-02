@@ -1,0 +1,13 @@
+@import '../../styles/colors.css';
+@import '../../styles/queries.css';
+
+.label {
+  font-size: 0.8em;
+  color: var(--blue);
+  display: inline-block;
+  text-transform: uppercase;
+
+  @media (--medium) {
+    width: 100px;
+  }
+}

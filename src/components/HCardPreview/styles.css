@@ -1,0 +1,22 @@
+@import '../../styles/colors.css';
+
+.previewTitle {
+  font-size: 17px;
+  color: var(--grey);
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 14px;
+}
+
+.hcard-preview {
+  position: relative;
+  background-color: var(--hcard-preview-background);
+  border-bottom: 2px solid var(--hcard-preview-border-bottom);
+}
+
+.formTitle {
+  color: var(--blue);
+  font-size: 29px;
+  margin-top: 0px;
+}

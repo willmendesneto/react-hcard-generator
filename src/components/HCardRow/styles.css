@@ -1,0 +1,7 @@
+@import '../../styles/colors.css';
+
+.row {
+  border-bottom: 1px solid var(--grey);
+  margin-bottom: 10px;
+  overflow: hidden;
+}

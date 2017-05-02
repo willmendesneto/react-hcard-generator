@@ -1,0 +1,11 @@
+@import '../../styles/colors.css';
+
+.fn {
+  composes: open-sans from '../../styles/fonts.css';
+  color: var(--hcard-preview-background);
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-size: 2em;
+  background-color: var(--blue);
+}

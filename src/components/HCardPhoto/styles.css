@@ -1,0 +1,10 @@
+@import '../../styles/colors.css';
+
+.photo {
+  height: 105px;
+  width: auto;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid var(--photo-border-color);
+}

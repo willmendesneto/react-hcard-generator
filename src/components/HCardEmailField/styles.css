@@ -1,0 +1,7 @@
+@import '../../styles/colors.css';
+
+.email {
+  composes: field from '../HCardField/styles.css';
+  text-decoration: none;
+  color: var(--default-text-color);
+}

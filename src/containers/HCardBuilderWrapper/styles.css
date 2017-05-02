@@ -1,0 +1,22 @@
+@import '../../styles/colors.css';
+@import '../../styles/queries.css';
+
+.half-column {
+  @media (--small) {
+    float: left;
+    width: 50%;
+  }
+}
+
+.hcard-preview {
+  composes: half-column;
+  background-color: #E7E9EC;
+  @media (--small) {
+    min-height: 698px;
+    height: 100vh;
+    padding: 95px 50px;
+  }
+  @media (--extra-small) {
+    padding: 40px 10px;
+  }
+}

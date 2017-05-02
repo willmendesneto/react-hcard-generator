@@ -1,0 +1,11 @@
+@import '../../styles/colors.css';
+
+.input {
+  display: none;
+}
+
+.button {
+  composes: large from '../../styles/buttons.css';
+  background-color: var(--file-field-button-background);
+  border-bottom: 2px solid var(--file-field-button-color);
+}

@@ -1,0 +1,26 @@
+@import '../../styles/colors.css';
+@import '../../styles/queries.css';
+
+.buttons {
+  margin-top: 15px;
+}
+
+.button-column {
+  composes: half-column from '../../containers/HCardBuilderWrapper/styles.css';
+
+  @media (--small) {
+    &:nth-of-type(2n+1) {
+      padding-right: 10px;
+    }
+
+    &:nth-of-type(2n) {
+      padding-left: 10px;
+    }
+  }
+}
+
+.upload {
+  composes: large from '../../styles/buttons.css';
+  background-color: #3FA9E2;
+  border-bottom: 2px solid #008ABE;
+}

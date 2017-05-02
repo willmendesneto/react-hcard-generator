@@ -1,0 +1,37 @@
+@import '../../styles/colors.css';
+@import '../../styles/queries.css';
+
+.form-group {
+  @media (--small) {
+    display: inline-block;
+    width: 50%;
+
+    &:nth-of-type(2n+1) {
+      padding-right: 10px;
+    }
+
+    &:nth-of-type(2n) {
+      padding-left: 10px;
+    }
+  }
+}
+
+.label {
+  display: block;
+  color: var(--blue);
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.input {
+  composes: Open Sans from '../../styles/fonts.css';
+  font-size: 1.3em;
+  padding: 5px 7px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  border: 1px solid var(--input-border);
+  border-radius: 3px;
+  width: 100%;
+}

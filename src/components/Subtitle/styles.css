@@ -1,0 +1,11 @@
+@import '../../styles/colors.css';
+
+.subtitle {
+  color: var(--grey);
+  font-size: 10px;
+  font-weight: lighter;
+  border-bottom: 1px solid var(--grey);
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+}
