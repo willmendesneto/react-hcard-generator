@@ -3,6 +3,9 @@
 > Simple hCard generator using ReactJS
 
 
+[![Build Status](https://travis-ci.org/willmendesneto/react-hcard-generator.png?branch=master)](https://travis-ci.org/willmendesneto/react-hcard-generator)
+
+
 [hCard](http://microformats.org/wiki/hCard) is a simple, open format for publishing people, companies and organizations on the web.
 
 This is the current [Browser compatibily list](http://browserl.ist/?q=last+2+versions%2C+Safari+8%2C+ios+7%2C+ie+10).
