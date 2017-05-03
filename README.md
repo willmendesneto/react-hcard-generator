@@ -24,6 +24,7 @@ This is the current [Browser compatibily list](http://browserl.ist/?q=last+2+ver
 - Enzyme as JavaScript Testing utilities for React;
 - React CSS Modules as CSS modules integration for React apps;
 - Offline support using node package `offline-plugin`;
+- Yarn as dependency manager;
 - Optional: Docker and Docker compose for application provisioning;
 
 
@@ -59,7 +60,8 @@ Assuming that you are using `nvm`, please run the commands inside this folder:
 ```bash
 $ nvm install $(cat .nvmrc); # install required nodejs version
 $ nvm use $(cat .nvmrc); # use nodejs version
-$ npm install # or `yarn install`
+$ npm install -g yarn@0.23.4
+$ yarn install
 ```
 
 In Windows, please install NodeJS using one of these options:
@@ -69,7 +71,8 @@ Via `NVM Windows` package: Dowload via [this link](https://github.com/coreybutle
 ```bash
 $ nvm install $(cat .nvmrc); # install required nodejs version
 $ nvm use $(cat .nvmrc); # use nodejs version
-$ npm install # or `yarn install`
+$ npm install -g yarn@0.23.4
+$ yarn install
 ```
 
 Via Chocolatey:
