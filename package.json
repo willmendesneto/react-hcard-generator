@@ -2,7 +2,7 @@
   "name": "react-hcard-generator",
   "version": "1.0.0",
   "scripts": {
-    "start": "node devServer.js",
+    "start": "webpack-dashboard -- node devServer.js",
     "test": "NODE_ENV=test nyc --reporter=lcov --reporter=text-summary mocha ./tests/unit/**/*.spec.js --require ./tests/unit/setup.js",
     "pretest": "eslint src && npm run editorconfig-tools-check",
     "editorconfig-tools-check": "editorconfig-tools check ./src/** ./tests/**"
@@ -45,6 +45,7 @@
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.9",
+    "webpack-dashboard": "^0.4.0",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0"
   },

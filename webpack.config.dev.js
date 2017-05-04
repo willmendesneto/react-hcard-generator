@@ -3,6 +3,7 @@ var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var ProgressBarPlugin = require('progress-bar-webpack-plugin');
 var OfflinePlugin = require('offline-plugin');
+var DashboardPlugin = require('webpack-dashboard/plugin');
 
 var browsers = [
   'ie >= 10',
@@ -27,6 +28,7 @@ module.exports = {
     browsers: browsers,
   },
   plugins: [
+    new DashboardPlugin(),
     new ProgressBarPlugin(),
     new OfflinePlugin({
       responseStrategy: 'network-first',
@@ -38,6 +40,12 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin({
       children: true,
       async: true,
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false,
+        drop_console: false,
+      },
     }),
     new ExtractTextPlugin('app.css', {
         allChunks: true,
