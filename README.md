@@ -1,5 +1,7 @@
 # React hCard Generator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/willmendesneto/react-hcard-generator.svg)](https://greenkeeper.io/)
+
 > Simple hCard generator using ReactJS
 
 
